@@ -1,0 +1,40 @@
+/*Selektor uniwersalny*/
+/**{
+border: 3px solid blue;
+}*/
+
+/*
+!*Selektor typu*!
+div {
+    border: 3px solid green;
+}
+!*Selektor klasy*!
+.boxes {
+    border: 5px solid red;
+}
+
+!*Selektor identyfikatora*!
+#box-one {
+    border: 3px solid blue;
+}
+*/
+
+/*Selektor elementu dziecka*/
+/*#big-box > div {
+    border: 3px solid blue;
+}*/
+
+/*Selektor elementu potomnego*/
+/*#big-box div {
+    border: 3px solid blue;
+}*/
+
+/*Selektor elementu sąsiadującego bezp.*/
+/*#box-two + div {
+    border: 3px solid blue;
+}*/
+
+/*Selektor elementu sąsiadującego*/
+#box-two ~ div {
+    border: 3px solid blue;
+}
