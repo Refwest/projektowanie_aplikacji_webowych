@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    height: 400px;
+    background-color: grey;
+    flex-direction: row;
+    justify-content: space-around;
+    /*justify-content: flex-end;*/
+    /*justify-content: flex-start;*/
+    /*align-items: center;*/
+    align-items: flex-end;
+    /*align-items: center;*/
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    margin: 5px;
+}
+
+.self {
+    align-self: flex-start;
+}
