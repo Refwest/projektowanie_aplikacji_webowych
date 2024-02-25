@@ -10,11 +10,13 @@ window.onload = function () {
     /*document.querySelector('#box-one').style.border = '3px solid red';*/
 
     // Jeden element za pomocą classy .boxes
-    /*document.querySelector('.boxes').style.border = '5px solid blue';*/
+/*
+    document.querySelector('.boxes').style.border = '5px solid blue';
+*/
 
 
     // Wiele elementó po nazwie klasy - bez ".", bo to jest wyszukiwanie konkretnie z klas
-    /*let arr = document.getElementsByClassName('boxes');*/
+    let arr = document.getElementsByClassName('boxes');
 
 
     //Wiele elementów po nazwie znacznika
