@@ -16,7 +16,7 @@ window.onload = function () {
 
 
     // Wiele elementó po nazwie klasy - bez ".", bo to jest wyszukiwanie konkretnie z klas
-    /*let arr = document.getElementsByClassName('boxes');*/
+    let arr = document.getElementsByClassName('boxes');
 
 
     //Wiele elementów po nazwie znacznika
